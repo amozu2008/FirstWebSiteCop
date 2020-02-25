@@ -1,0 +1,26 @@
+﻿h2 {
+    color:red;
+    text-align:center;
+    text-decoration:underline
+}
+
+/*table,th,td{
+    border:1px solid black;
+}*/
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+th{
+    height:50px;
+    text-align:left;
+    background-color:lightskyblue;
+    color:white;
+}
+
+th,td{
+    border-bottom:1px solid #ddd;
+}
+tr:hover{
+    background-color:darkgray;
+}
